@@ -1,3 +1,29 @@
+# Imamsidikov_ML_task_2 — Decision Trees
+
+MOP 3231 · Machine Learning (Python) · Task 2. All the work is in **`Imamsidikov_task2.ipynb`** (executed, with outputs), SEED = 2954.
+
+| Part | Content |
+|---|---|
+| 0 | Version check, SEED, stratified 70/30 split |
+| 1 | Entropy and information gain by hand on a 12-patient toy table |
+| 2 | Decision tree from scratch in NumPy, checked against scikit-learn |
+| 3 | Depth and `min_samples_leaf` sweeps with 5-fold CV, one-SE rule (chosen `max_depth = 3`), single test evaluation |
+| 4 | Tree vs logistic regression on the same folds, scaling experiment, hold-out comparison |
+| 5 | Reading the depth-3 tree, feature importances, same-class splits, reproducibility |
+
+## Run
+
+```bash
+python3.12 -m venv .Imamsidikov_ML_task_2
+source .Imamsidikov_ML_task_2/bin/activate
+pip install -r requirements.txt
+jupyter notebook Imamsidikov_task2.ipynb   # Kernel → Restart & Run All
+```
+
+---
+
+The original starter README follows.
+
 # Task 2 — Decision Trees
 
 Starter files for **Task 2** (graded, 25 points, due Friday 9 October 2026, 23:59 Canvas time, UTC+5)
